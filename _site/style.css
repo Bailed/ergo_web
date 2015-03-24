@@ -58,8 +58,7 @@ h2,
 h3,
 h4,
 h5,
-h6 {
-    text-transform: uppercase;
+h6 {    
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
 }
@@ -179,7 +178,7 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default {
     border-color: transparent;
-    background-color: #222;
+    background-color: rgba(0, 0, 0, 0.4);
 }
 
 .navbar-default .navbar-brand {
@@ -239,9 +238,9 @@ fieldset[disabled] .btn-xl.active {
 
 @media(min-width:768px) {
     .navbar-default {
-        padding: 25px 0;
+        padding: 0 0;
         border: 0;
-        background-color: transparent;
+        background-color: rgba(0, 0, 0, 0.4);
         -webkit-transition: padding .3s;
         -moz-transition: padding .3s;
         transition: padding .3s;
@@ -273,7 +272,7 @@ header {
     text-align: center;
     color: #fff;
     background-attachment: scroll;
-    background-image: url(../img/header-bg.jpg);
+    background-image: url(img/header-bg.jpg);
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
@@ -327,13 +326,14 @@ header .intro-text .intro-heading {
 }
 
 section {
-    padding: 100px 0;
+    padding: 70px 0;
 }
 
 section h2.section-heading {
-    margin-top: 0;
-    margin-bottom: 15px;
-    font-size: 40px;
+	font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 2.5em;
+    font-style: italic;
+    line-height: 22px;
 }
 
 section h3.section-subheading {
@@ -347,7 +347,7 @@ section h3.section-subheading {
 
 @media(min-width:768px) {
     section {
-        padding: 150px 0;
+        padding: 70px 0;
     }
 }
 
